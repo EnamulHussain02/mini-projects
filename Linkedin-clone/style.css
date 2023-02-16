@@ -1,0 +1,529 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #F3F2EF;
+	display: flex;
+	flex-direction: column;
+	align-items:center ;
+	justify-content: space-between;
+}
+.body{
+	display: flex;
+}
+.leftSide{
+	display: block;
+}
+.leftHeader img{
+	height: 40px;
+	margin-right: 10px;
+}
+.header{
+	width: 100%;
+	position: sticky;
+	display: flex;
+	top: 0px;
+	justify-content: space-evenly;
+	padding: 10px ;
+	background-color: white;
+}
+.leftHeader{
+	display: flex;
+}
+.search{
+	padding: 20px 10px 20px 10px;
+	margin-top: 0px;
+	display: flex;
+	align-items: center;
+	border-radius:5px ;
+	height: 0px;
+	color: gray;
+	background-color: #EEF3F8;
+}
+.search .input{
+	border:none ;
+	background:none ;
+}
+.rightHeader{
+	display: flex;
+}
+.headerIcons{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 20px;
+	color: gray;
+	cursor: pointer;
+
+}
+.headerIcons i{
+	margin-bottom: -10px;
+}
+.headerIcons:hover{
+	color: black;
+}
+.headerIcons h3{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.container{
+	display: block;
+}
+.container{
+	display: block;
+	margin-top: 10px;
+	width: 610px;
+	padding: 10px;
+	margin-left: 290px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.leftContainer{
+	display: block;
+	width: 600px;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+
+.profile img{
+	width: 610px;
+	margin-top: -20px;
+
+}
+.profileDetails .editButton{
+	margin-left: 535px;
+	border-radius: 50%;
+	width: 38px;
+}
+.profile .background{
+	margin-top: -20px;
+	margin-left: -10px;
+	margin-right: -20px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.profileDetails img{
+	width:150px;
+	margin-top:-85px ;
+	margin-bottom: -30px;
+	border-radius: 50%;
+	border-color: white;
+}
+.profileDetails i{
+	margin-left: 0px;
+	justify-content: space-between;
+}
+.profileDetails i:hover{
+	background-color: #EBEBEB;
+	border-radius: 50%;
+	border: 50px 50px;
+	cursor: pointer;
+}
+.profileDetails #close{
+	margin-left: 0px;
+}
+.profileDetails .edit{
+	margin-left: 10px;
+}
+.profileDetails .name{
+	display: flex;
+	margin-top: 25px;
+}
+.profileDetails #btn-cross{
+	margin-top: 10px;
+    margin-left: 380px;
+    border-radius: 50%;
+    width: 40px;
+    background-color: lightgray;
+    border: none;
+}
+}
+.profileDetails h1{
+	font-size: 32px;
+	display: flex;
+	margin-top: 25px;
+}
+.profileDetails span{
+	display: flex;
+	margin: 7px 0px 0px 5px;
+}
+.profileDetails .position{
+	word-wrap: break-word!important;
+    word-break: break-word!important;
+}
+.profileDetails .address{
+	display: flex;
+	font-size: 12px;
+	margin-bottom:-15px ;
+}
+.profileDetails .address span{
+	display: flex;
+	margin: 0px 5px 0px 10px;
+	color: blue;
+}
+.profileDetails .connections{
+	margin: 5px 0px ;
+	display: flex;
+	color: blue;
+	font-size: 12px;
+}
+.buttons {
+	display: flex;
+	margin: 20px 0px 0px 0px;
+	justify-items: space-between;
+}
+button{
+	margin: -11px 10px 0px 0px;
+  	border: none;
+  	color: none;
+  	border: 10px;
+  	padding: 5px;
+  	text-align: center;
+  	text-decoration: none;
+  	cursor: pointer;
+  	border-radius: 16px;
+}
+.buttons .btn-primary{
+	background-color: #E2F0FE;
+	color: #0A66CE;
+	border-color:#0A66CE;
+	border: #0A66CE;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.button1{
+	background-color: #004182;
+	color: #FFFFFF;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.card{
+	border-color: white;
+}
+.card-header{
+	border: none;
+	background-color: white;
+	
+}
+.buttons .btn-link{
+	background: none;
+	text-decoration: none;
+}
+#headingOne{
+	margin-left: 8px;
+}
+.buttons #subButtons{
+	background-color: none;
+	color: #0A66CE;
+	border-color:#0A66CE;
+	border: #0A66CE;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.button3{
+	border-radius: 20px;
+}
+.edit {
+  display: none;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+}
+.editInfo {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.editInfo .close{
+	width: 35px;
+	height: 33px;
+	margin-left: 510px;
+	margin-top: -15px;
+}
+.bottomIcons{
+	background-color: white;
+  	overflow: hidden;
+  	white-space: nowrap;
+}
+div.bottomIcons button{
+	margin-top: 10px;
+  	text-align: center;
+  	font-size: 14px;
+  	padding: 14px;
+  	text-decoration: none;
+}
+.bottomIcons p{
+	margin: 0px;
+}
+.bottomIcons{
+	margin-top: 10px;
+}
+.bottomIcons .work{
+	width: 290px;
+	border-radius: 15px;
+	text-align: left;
+}
+.bottomIcons .getStarted{
+	background-color: white;
+	border-radius: 15px;
+	border: 1px solid grey;
+	text-align: left;
+}
+.bottomIcons #links{
+	color: blue;
+}
+.analytics{
+	margin-top: 10px;
+	display: block;
+	width: 610px;
+	padding: 10px;
+	margin-left: -395px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.analytics h3{
+	margin-bottom: -30px;
+}
+.analytics .eye{
+	display: flex;
+	margin-top: 10px;
+}
+.eye p{
+	margin-left: 5px;
+}
+.analyticsIcon{
+	display: flex;
+	height: 60px;
+}
+.analyticsIcon .icon1{
+	display: inline-block;
+}
+.analyticsIcon .icon1 p{
+	margin-left: 30px;
+	margin-top: -26px;
+	margin-bottom: 25px;
+}
+.analyticsIcon #p1:hover{
+	color: blue;
+	text-underline-offset: !important;
+	cursor: pointer;
+}
+.analyticsIcon p{
+	margin-left: 35px;
+	font-size: 12px;
+	margin-top: -15px;
+}
+.analyticsIcon .icon2{
+	margin-left: 55px;
+}
+.analyticsIcon .icon2 p{
+	margin-left: 30px;
+	margin-top: -26px;
+	margin-bottom: 25px;
+}
+.resources{
+	margin-top: 10px;
+	display: block;
+	width: 610px;
+	padding: 10px;
+	margin-left: -395px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+.resources .eye{
+	display: flex;
+	margin-top: 10px;
+}
+.eye p{
+	margin-left: 5px;
+}
+
+.creator{
+	display: flex;
+}
+
+.resourcesIcons #p2{
+	margin-left: 5px;
+}
+.resourcesIcons #p2:hover{
+	color: blue;
+	cursor: pointer;
+}
+.resourcesIcons hr{
+	margin:0px;
+}
+.creator button{
+	width: 40px;
+	height: 24px;
+	padding: 0px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+.network{
+	display: flex;
+	margin-top: 10px;
+}
+
+.network #p3{
+	margin-top: 25px;
+	margin-left: -85px;
+	font-size: 12px;
+}
+.creator #p3{
+	margin-top: 25px;
+	margin-left: -150px;
+	font-size: 12px;
+}
+
+.profileEdit
+{
+	margin-top: -915px;
+	margin-left: 715px;
+	border: 1px solid lightgray;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	width: 432px;
+	height: 120px;
+}
+.column
+{
+	margin-top: 23px;
+}
+.editProfile
+{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.editProfile i
+{
+	margin-top: -3px;
+	margin-right: 18px;
+	color: gray;
+}
+.editProfile a
+{
+     text-decoration: none;
+	 color: gray;
+}
+.addLang
+{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+.addLang a
+{
+     text-decoration: none;
+	color: gray;
+}
+.addLang i
+{
+	margin-top: -3px;
+	margin-right: 18px;
+	color: gray;
+}
+.suggestions
+{
+	margin-top: 50px;
+	border: 1px solid lightgray;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	width: 100%;
+	height: 520px;
+}
+.suggestions h2
+{
+	margin-left: 25px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.person img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+.person h4{
+	margin-top: -40px;
+	margin-left: 70px;
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+.person p{
+	font-size: 12px;
+	margin-left: 70px;
+    margin-top: 0px;
+}
+.person #follow{
+	margin-left: 70px;
+	width: 110px;
+}
+
+.modal-dialog-scrollable .modal-content {
+	width: 600px;
+}
+.modal-body .info{
+	display: flex;
+
+}
+.form-group{
+	margin-bottom: 15px;
+}
+.form-group b{
+	color: blue;
+}
+.form-group b:hover{
+	color: blue;
+	cursor: pointer;
+}
+.modal-body h4{
+	color: #191919;
+	font-size: 22.4px;
+}
+.suggestions button:hover{
+	background-color: #EBEBEB;
+}
+.person .mainButton{
+	margin-left: 65px;
+    width: 115px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: white;
+}
+
+.person .mainButton:hover{
+	background-color:  #EBEBEB;
+}
+
+
+
+
+
+
